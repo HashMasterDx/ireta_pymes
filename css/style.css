@@ -1,0 +1,147 @@
+@font-face{
+  font-family: Monserrat-reg;
+  src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face{
+  font-family: Monserrat-med;
+  src: url(../assets/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face{
+  font-family: Monserrat-bol;
+  src: url(../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+
+  .body
+  {
+    background: #f5e6cc;
+    
+  }
+
+  body{
+    background-color: #f5e6cc;
+    font-family: Monserrat-reg;
+  }
+
+  .jumbotron {
+    font-family: Monserrat-med;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #f5e6cc;
+    border-radius: 0px;
+}
+
+.pTitulos{
+  font-family: Monserrat-med;
+}
+
+.pTitulosB{
+  font-family: Monserrat-bol;
+}
+
+  footer {
+  background: #222;
+  color: #aaa;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h3 {
+ color: #0894d1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+ width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+
+footer .socila-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .socila-list li:hover {
+  opacity: 1;
+}
+
+footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
+
+footer .copyright {
+  padding: 15px 0;
+  background: #333;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+footer .copyright span {
+  color: #0894d1;
+}
+
+.card{
+  background-color: #dfd4ca;
+}
+
+.btn-primary {
+    color: #302f30;
+    background-color: #ffb48f;
+    border-color: #212529;
+    font-family: Monserrat-med;
+}
+
+.btn-primary:hover {
+    color: #302f30;
+    background-color: #f5e6cc;
+    border-color: #564c48;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #302f30;
+    background-color: #f5e6cc;
+    border-color: #564c48;
+    box-shadow: 0 0 0 0.2rem rgb(169, 163, 158);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #302f30;
+    background-color: #f5e6cc;
+    border-color: #564c48;
+}
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.pad0{
+  padding: 0px;
+  border-bottom: 1px solid white;
+  margin-right: 7px;
+  margin-left: 7px;
+}
